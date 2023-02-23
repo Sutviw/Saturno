@@ -1,46 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brian Tracy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
+  <title>Ejemplo de Bootstrap</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <ul>
-    <li ><a href="#xd">inicio</a></li>
-    <li ><a href="#d">videos</a></li>
-    <li ><a href="#x">mas info</a></li>
-    <li ><a href="#dx">contacto</a></li>
-  </ul>
-  <br>
-  <br>
-  <br>
-  
-   <h1 id="xd">Hola soy Brian Tracy</h1>
-   <p>Naci el 1944 el 5 de enero en Charlottetown, Canada y actualmente tengo 79 años</p>
-   <img src="https://www.pasosalexito.com/wp-content/uploads/2021/08/brian-tracy-2.png" alt="">
-   <h3>Soy un empresario,orador motivacional,escritor de ventas
-    y desarrollador personal y e escrito mas de setenta libros que se han 
-    traducido a mas de doce idiomas.
-   </h3>
-   <p>Bryan Tracy soy uno de las autoridades más importantes del
-     mundo en lo referente a negocios y éxito personal.</p>
-   <section>
-    <h1 id="d">VIDEOS</h1>
-    <iframe width="1280" height="658" src="https://www.youtube.com/embed/UgyYPN5lTIc" title="Brian Tracy Biografía EN ESPAÑOL - 3 tips para ser un líder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/QYt_-c4dsrU" title="Brian Tracy deja a la audiencia SIN PALABRAS | Uno de los mejores discursos de todos los tiempos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/PgzsRjz_fmI" title="Aplica Esto Ingredientes Todos Los Días ¡Te Volverán Exitoso! | BRIAN TRACY EN ESPAÑOL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-   </section>
-   <section>
-    <H1 id="x">MAS INFO</H1>
-    <iframe src="https://masymejor.com/brian-tracy/" width="1000" height="600"></iframe>
-   </section>
-   <section>
-    <h1 id="dx">CONTACTO</h1>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d209.8151515747516!2d-117.1257751136205!3d32.71150034687804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9530fad921e4b%3A0xd3a21fdfd15df79!2sSan%20Diego%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses-419!2smx!4v1676339208546!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-   </section>
+
+<div class="container">
+
+    <section id="app">
+        <h1>Apps</h1>
+        <div class="line"></div>
+        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/4zZNILJGJDfB0Bw6w2wmxVwiAljosjZEL5mowIYqyFE/embed"></iframe>
+        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/zKErsd1mW7b_5BbwkwFRs1WfyXur2CJy-VoBfCFQex8/embed"></iframe>
+    </section>
+
+
+
+<h2>Haz clic en los juegos para explorarlos</h2>
+
+<h5>Estos juegos son construidos en el laboratorio de juegos, haz clic en el juego para jugar</h5>
+
+<div id="myCarousel" class="carousel slide" >
+  <center>
+    <!-- Envoltura para las diapositivas -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <a href="https://studio.code.org/projects/gamelab/4MnJBmFypPgF0gvUubOFoqLVi3XLi677gAtJSi-tKfs" target="_blank">
+          <img src="game1.png">
+        </a>
+        <p>Carrera de autos</p>
+      </div>
+
+      <div class="item">
+        <a href="https://studio.code.org/projects/gamelab/UfGEaMjMQZGI4bRTrecB6aA3xwam7LZ19BAP6wdQoDU" target="_blank">
+          <img src="game2.png">
+        </a>
+          <p>Estar en el espacio</p>
+        </div>
+    
+    </div>
+
+    <!-- Controles izquierdo y derecho -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+
+  </center>
+  </div>
+
+</div>
+
 </body>
 </html>

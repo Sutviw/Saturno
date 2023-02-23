@@ -1,21 +1,17 @@
-body{
-    background:linear-gradient(lightblue, rgb(241, 90, 90), rgb(255, 107, 255) );
+body
+{
+    text-align: center;
+    background:linear-gradient(purple, red, blue, rgb(4, 255, 4),yellow );
 }
-ul{
-    list-style: none;
-    top: 0 ;
-    position:fixed;
-    z-index: 150;
-    cursor: pointer;
+#myCarousel img
+{
+    height: 300px;
+    margin-top: 35px;
 }
-li{
-    padding-top: 10px;
-    padding-left: 5px;
-    padding-bottom: 5px;
-    padding-right: 15px;
 
-    float: left;
-}
-H1{
-    font-family: 'Babylonica', cursive;
+.carousel-inner p
+{
+    margin-top: 15px;
+    color : rgb(255, 57, 57);
+    font-size: 20px;
 }
